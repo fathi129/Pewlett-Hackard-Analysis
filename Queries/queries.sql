@@ -128,7 +128,7 @@ select ri.emp_no,
 		ri.first_name,
 		ri.last_name,
 		d.dept_name
--- into sales_info		
+		into sales_info		
 from retirement_info as ri
 	inner join dept_emp as de
 	on (ri.emp_no = de.emp_no)
