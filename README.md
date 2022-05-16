@@ -24,7 +24,7 @@ In this Project, We have created the Entity-Relationship Diagram (ERD), which sh
 
 Using the ERD as a reference, A SQL query is written to create a Retirement Titles table that holds all the titles of employees born between January 1, 1952, and December 31, 1955. Because some employees may have multiple titles in the database, for example, we get duplicates due to promotions.<br>
 <img src = "https://github.com/fathi129/Pewlett-Hackard-Analysis/blob/master/Screenshots_SQL/retirement_titles.png" width = 400><br>
-The query's output was the list of retiring employees filtered with the criteria. We can see that there are **1,33,776** retiring employees but with duplicates.<br><br>
+The query's output was the list of retiring employees filtered with the criteria. We can see that there are **1,33,776** retiring employees but with duplicates.<br>
 <img src = "https://github.com/fathi129/Pewlett-Hackard-Analysis/blob/master/Deliverable%201%20%26%202/Deliverable1_retirement_titles.png" width = 600><br>
 
 ### 2.Creating the Unique number of retiring employees by using Distinct function:<br>
